@@ -14,5 +14,8 @@ Use replaceName.xsl
 After download of replaceName.xsl, sample command to replace `foo` with `bar` in the current directory tree:
 
 ```console
-srcml . --xslt replaceName.xsl --xslt-param prevname="doc" --xslt-param newname="document" | srcml --to-dir .
+srcml . --xslt replaceName.xsl \
+        --xslt-param prevname="doc" \
+        --xslt-param newname="document" \
+        | srcml --to-dir .
 ```

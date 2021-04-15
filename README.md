@@ -1,6 +1,10 @@
 # XSLT
 
-A collection of XSLT transformations for srcML
+A collection of XSLT transformations for srcML.
+
+The XSLT is written from the perspective of a single source-code file.
+When used with the srcML client `srcml`, the XSLT is individually applied to each file
+in an archive.
 
 ## Replace Name
 

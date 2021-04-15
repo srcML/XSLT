@@ -15,7 +15,7 @@ After download of replaceName.xsl, sample command to replace `foo` with `bar` in
 
 ```console
 srcml . --xslt replaceName.xsl \
-        --xslt-param prevname="doc" \
-        --xslt-param newname="document" \
+        --xslt-param prevname="foo" \
+        --xslt-param newname="bar" \
         | srcml --to-dir .
 ```
